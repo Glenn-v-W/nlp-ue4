@@ -16,7 +16,7 @@ B.  Additionally, follow these steps:
 
 You can find an example project here:
 
-[INSERT LINK HERE]
+https://github.com/Glenn-v-W/nlp-ue4-examples
 
 For more info on how it works, see the video below!
 
