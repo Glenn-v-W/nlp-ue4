@@ -1,0 +1,11 @@
+---,Entities
+True,"(""barrel"")"
+1,"(""chest"",""trunk"",""crate"",""box"")"
+2,"(""column"",""pillar"")"
+3,"(""door"")"
+4,"(""gate"",""portcullis"",""fence"",""bars"")"
+5,"(""table"")"
+6,"(""torch"")"
+7,"(""wall"")"
+8,"(""shelf"",""cupboard"")"
+9,"(""carpet"")"

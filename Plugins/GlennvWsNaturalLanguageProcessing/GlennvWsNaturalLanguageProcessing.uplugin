@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GlennvWsNaturalLanguageProcessing",
+	"Description": "Allows the extraction of entities and intents from natural language setences. Requires TensorFlow plugin for Unreal Engine 4 (https://github.com/getnamo/tensorflow-ue4) and all it's prerequisites.",
+	"Category": "GlennvW",
+	"CreatedBy": "GlennvW",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.21.0",
+	"CanContainContent": true,
+	"Installed": true
+}

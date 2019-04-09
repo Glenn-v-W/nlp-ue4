@@ -1,0 +1,10 @@
+---,Entities
+False,"(""north"",""northern"",""north-most"",""northost"",""northwards"")"
+1,"(""east"",""eastern"",""east-most"",""eastmost"",""eastwards"")"
+2,"(""south"",""southern"",""south-most"",""southmost"",""southwards"")"
+3,"(""west"",""western"",""west-most"",""westmost"",""westwards"")"
+4,"(""north west"",""north-west"",""north-west-most"",""northwestmost"",""northwestern"",""north-western"",""north west most"",""northwestwards"",""north-west-wards"",""north west wards"")"
+5,"(""north east"",""north-east"",""north-east-most"",""northeastmost"",""northeastern"",""north-eastern"",""north east most"",""northeastwards"",""north-east-wards"",""north east wards"")"
+6,"(""south east"",""south-east"",""south-east-most"",""southeastmost"",""southeastern"",""south-eastern"",""south east most"",""southeastwards"",""south-east-wards"",""south eastt wards"")"
+7,"(""south west"",""south-west"",""south-west-most"",""southwestmost"",""southwestern"",""south-western"",""south west most"",""southwestwards"",""south-west-wards"",""south west wards"")"
+8,"(""nearest"",""closest"")"
