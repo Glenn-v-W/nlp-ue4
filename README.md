@@ -1,7 +1,7 @@
 # nlp-ue4
 Natural Language Processing Plugin for Unreal Engine 4 using Tensorflow
 
-This plugin was built upon getnamo's tensorflow-ue4 plugin, which you can find here: https://github.com/getnamo/tensorflow-ue4
+This plugin was built upon getnamo's tensorflow-ue4 plugin, which you can find here: https://github.com/getnamo/tensorflow-ue4.
 
 ## Installation
 
@@ -25,3 +25,14 @@ For more info on how it works, see the video below!
 Watch this video for a quick summary of the plugin's features!
 
 [INSERT VIDEO HERE]
+
+## Troubleshooting
+
+### command window pops up on first begin play
+
+On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity.
+
+## [License](https://github.com/Glenn-v-W/nlp-ue4/blob/master/LICENSE)
+NLP abd Tensorflow Plugin - [MIT](https://opensource.org/licenses/MIT)
+
+TensorFlow and TensorFlow Icon - [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
