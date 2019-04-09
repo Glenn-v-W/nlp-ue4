@@ -7,7 +7,7 @@ This plugin was built upon getnamo's tensorflow-ue4 plugin, which you can find h
 
 A.  To use this NLP plugin, you must first follow the instructions for that plugin.
 
-B.  Addtionally, follow these steps:
+B.  Additionally, follow these steps:
 1.    download the Content and Plugins folders on this page, and add them to your project
 2.    download GoogleNews-vectors-negative300.bin (3.39 GB!) from https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
 3.    add GoogleNews-vectors-negative300.bin to \Content\Scripts in your project
