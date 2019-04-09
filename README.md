@@ -33,6 +33,6 @@ Watch this video for a quick summary of the plugin's features!
 On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity.
 
 ## [License](https://github.com/Glenn-v-W/nlp-ue4/blob/master/LICENSE)
-NLP abd Tensorflow Plugin - [MIT](https://opensource.org/licenses/MIT)
+NLP and Tensorflow Plugin - [MIT](https://opensource.org/licenses/MIT)
 
 TensorFlow and TensorFlow Icon - [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
