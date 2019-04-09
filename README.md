@@ -14,11 +14,13 @@ B.  Additionally, follow these steps:
 
 ## Examples
 
-You can find an example project here:
+You can find a bare-bones example project here:
 
 https://github.com/Glenn-v-W/nlp-ue4-examples
 
-For more info on how it works, see the video below!
+For a more in-depth use of this plugin, you can find a text-based adventure game I've been working on here:
+
+[SOON™]
 
 ## Feature Overview
 
