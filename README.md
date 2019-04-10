@@ -94,8 +94,11 @@ with the above structuring, that would become
 
 This sentence can then be added to our .csv file, where each word is a seperate field, and all the fields after the sentence is complete are filled with "none" until J. (max of 10 words)
 
-Of course this sentence corresponds to an intent, we must select the corresponding intent of this sentence. We do this in TrainingDataIntents.csv, where we set the corresponding field to 1, and all incorrect fields to 0. These collumns correspond directly with the rows in Intents.csv, so for example, if Intents.csv has the followin fields; B2:GoTo, B3:GoThrough, B4:Use and B5:PickUp.
-the first of those, GoTo, corresponds to the first collumn in TrainingDataIntents.csv, the second one, GoThrough, corresponds to the second collumn, and so on. 
+Of course this sentence corresponds to an intent, we must select the corresponding intent of this sentence. We do this in TrainingDataIntents.csv, where we set the corresponding field to 1, and all incorrect fields to 0. 
+
+These collumns correspond directly with the rows in Intents.csv, so for example, if Intents.csv has the followin fields; B2:GoTo, B3:GoThrough, B4:Use and B5:PickUp.
+
+The first of those, GoTo, corresponds to the first collumn in TrainingDataIntents.csv, the second one, GoThrough, corresponds to the second collumn, and so on. 
 
 Intents.csv has similar rules to Entities;
 
