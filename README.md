@@ -20,7 +20,7 @@ https://github.com/Glenn-v-W/nlp-ue4-examples
 
 For a more in-depth use of this plugin, you can find a text-based adventure game I've been working on here:
 
-[SOON™]
+https://github.com/Glenn-v-W/nlp-puzzlegame
 
 ## Feature Overview
 
