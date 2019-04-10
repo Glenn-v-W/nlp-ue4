@@ -32,7 +32,7 @@ There's two major parts for using this plugin, there's an in-engine part, and an
 ### Entities
 
 Make your way to \Content\Entities
-In this folder, you can put as many entities as you wish. Each type of entity must be a .csv file, and the name of the file will be the type of the entity.
+In this folder, you can have as many entities as you wish. Each type of entity must be a .csv file, and the name of the file will be the type of the entity.
 
 The .csv file must have the following structure:
 
