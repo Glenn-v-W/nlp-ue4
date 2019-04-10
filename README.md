@@ -8,12 +8,9 @@ This plugin allows you to extract entities and intents from sentences fully in B
 
 ## Installation
 
-A.  To use this NLP plugin, you must first follow the instructions for intalling [tensorflow-ue4](https://github.com/getnamo/tensorflow-ue4).
-
-B.  Additionally, follow these steps:
-1.    download the Content and Plugins folders on this page, and add them to your project
-2.    download GoogleNews-vectors-negative300.bin (3.39 GB!) from https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
-3.    add GoogleNews-vectors-negative300.bin to \Content\Scripts in your project
+1.  To use this NLP plugin, you must first follow the instructions for intalling [tensorflow-ue4](https://github.com/getnamo/tensorflow-ue4).
+2.    Download and add [nlp-ue4 plugin](https://github.com/Glenn-v-W/nlp-ue4) to \Plugins
+3.    download and add [GoogleNews-vectors-negative300.bin (3.39 GB!)](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing) to \Content\Scripts
 
 ## Examples
 
