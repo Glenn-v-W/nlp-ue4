@@ -78,9 +78,9 @@ This should contain sentences similar to what players may be entering in the gam
 
 So, for example, imagine we have:
 
-    an Entity of Objects with Base barrel that includes chest
-    an Entity of Colors with base red that includes green, and is set to be meaningless
-    an Intent of Equipables with base key (that includes key, obviously)
+    an Entity of Objects with Base barrel
+    an Entity of Colors with base red, and is set to be meaningless
+    an Intent of Equipables with base key
     
 We would like to enter the following sentence into our training set:
 
