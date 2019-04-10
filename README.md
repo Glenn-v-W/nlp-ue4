@@ -57,11 +57,11 @@ Make your way to \Content\Scripts
 
 This folder must contain 3 .csv files for the plugin to function;
 
-TrainingDataSentences.csv
+    TrainingDataSentences.csv
 
-TrainingDataIntents.csv
+    TrainingDataIntents.csv
 
-Intents.csv
+    Intents.csv
 
 The following screenshot has those files open in that order, from left to right, TrainingDataSentences, TrainingDataIntents and Intents
 
