@@ -78,7 +78,7 @@ This should contain sentences similar to what players may be entering in the gam
 
 So, for example, imagine we have:
 
-    an Entity of Objects with Base barrel
+    an Entity of Objects with base barrel
     an Entity of Colors with base red, and is set to be meaningless
     an Intent of Equipables with base key
     
