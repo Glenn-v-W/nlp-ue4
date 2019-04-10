@@ -111,7 +111,10 @@ That may sound like a lot, so you can also watch this video for a quick summary 
 
 ### command window pops up on first begin play
 
-On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity. If the NaturalLanguageComponent does not complete training, wait for a few minutes before pressing play again.
+On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity. 
+
+### the NaturalLanguageComponent does not complete training
+Wait for a few minutes before pressing play again. Python modules are being installed in the background, just be patient!
 
 ## [License](https://github.com/Glenn-v-W/nlp-ue4/blob/master/LICENSE)
 NLP and Tensorflow Plugin - [MIT](https://opensource.org/licenses/MIT)
