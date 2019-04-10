@@ -6,7 +6,7 @@ This plugin was built upon getnamo's tensorflow-ue4 plugin, which you can find h
 
 ## Installation
 
-A.  To use this NLP plugin, you must first follow the instructions for that plugin.
+A.  To use this NLP plugin, you must first follow the instructions for [that plugin](https://github.com/getnamo/tensorflow-ue4).
 
 B.  Additionally, follow these steps:
 1.    download the Content and Plugins folders on this page, and add them to your project
