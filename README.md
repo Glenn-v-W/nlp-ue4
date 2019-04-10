@@ -4,9 +4,11 @@ Natural Language Processing Plugin for Unreal Engine 4 using Tensorflow
 
 This plugin was built upon getnamo's tensorflow-ue4 plugin, which you can find here: https://github.com/getnamo/tensorflow-ue4.
 
+This plugin allows you to extract entities and intents from sentences fully in Blueprints, without touching C++ or Python!
+
 ## Installation
 
-A.  To use this NLP plugin, you must first follow the instructions for [that plugin](https://github.com/getnamo/tensorflow-ue4).
+A.  To use this NLP plugin, you must first follow the instructions for intalling [tensorflow-ue4](https://github.com/getnamo/tensorflow-ue4).
 
 B.  Additionally, follow these steps:
 1.    download the Content and Plugins folders on this page, and add them to your project
