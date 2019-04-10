@@ -47,6 +47,7 @@ def installIfNeeded(moduleName, nameOnPip=None, notes="", log=print):
         log("Installing " + moduleName + notes + " Library for Python")
         call([getPip(log), "install", nameOnPip if nameOnPip else moduleName])
 
+installIfNeeded("tensorflow")
 installIfNeeded("nltk")
 installIfNeeded("gensim")
 installIfNeeded("pandas")
