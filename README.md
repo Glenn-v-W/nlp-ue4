@@ -36,7 +36,7 @@ In this folder, you can have as many entities as you wish. Each type of entity m
 
 The .csv file must have the following structure:
 
-[![colors.csv](https://puu.sh/DcFZK/06892ba83b.png)]
+![colors.csv](https://puu.sh/DcFZK/06892ba83b.png)
 
 Field A1 must be empty or contain "---"
 
@@ -65,7 +65,7 @@ This folder must contain 3 .csv files for the plugin to function;
 
 The following screenshot has those files open in that order, from left to right, TrainingDataSentences, TrainingDataIntents and Intents
 
-[![intents](https://puu.sh/DcG9Y/593462f598.png)]
+![intents](https://puu.sh/DcG9Y/593462f598.png)
 
 So, what's going on here?
 TrainingDataSentences.csv (left-hand file) includes the sentences our neural net will be training on for intent recognition.
