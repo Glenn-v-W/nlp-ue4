@@ -49,7 +49,7 @@ Field B2, B3, B4 and onwards must be structured as seen in the image. Words that
 Field A3, A4, A5 and onwards must have unique names, but the names are meaningless, I suggest using row-numbers for simplicity.
 
 
-Additionally, the first word in B2 will be referred to as the "base" of that Entity.
+The first word in B2 will be referred to as the "base" of that Entity henceforth.
 
 ### TrainingData and Intents
 
