@@ -69,7 +69,7 @@ The following screenshot has those files open in that order, from left to right,
 
 So, what's going on here?
 TrainingDataSentences.csv (left-hand file) includes the sentences our neural net will be training on for intent recognition.
-Ideally, add as many sentences similar to what players may be saying in the game to this document, but be careful!
+This should contain sentences similar to what players may be entering in the game, but be careful, there's a very strict way to structure them!
 
 1. Change sentence to be lower case
 2. Remove all punctuation marks (,.?!)
