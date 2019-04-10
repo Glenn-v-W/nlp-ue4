@@ -86,7 +86,7 @@ So, for example, imagine we have:
     
 We would like to enter the following sentence into our training set:
 
-    Open the green chest using the green key
+    Open the green chest using the green key!
    
 with the above structuring, that would become
     
