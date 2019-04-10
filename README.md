@@ -2,7 +2,7 @@
 
 Natural Language Processing Plugin for Unreal Engine 4 using Tensorflow
 
-This plugin was built upon getnamo's [tensorflow-ue4 plugin](https://github.com/getnamo/tensorflow-ue4), which you can find here.
+This plugin was built upon [getnamo's tensorflow-ue4 plugin](https://github.com/getnamo/tensorflow-ue4), which you can find here.
 
 This plugin allows you to extract entities and intents from sentences fully in Blueprints, without touching C++ or Python!
 
