@@ -38,15 +38,11 @@ The .csv file must have the following structure:
 
 ![colors.csv](https://puu.sh/DcFZK/06892ba83b.png)
 
-Field A1 must be empty or contain "---"
-
-Field B1 must contain "Entities"
-
-Field A2 must contain either True or False. This determines whether the entity has an impact on the intent of a sentence, in other words, it determines if the entity is meaningful. Colors and many adjectives may be described as meaningless as far as the intent is concerned. True = meaningful, False = meaningless
-
-Field B2, B3, B4 and onwards must be structured as seen in the image. Words that fall within the same entity/category but have a different meaning should be in different fields, while synonyms should be in the same field. (For example, Red and Ruby are in the same field, since as far as we're conserned here, they're synonyms, blue meanwhile is in a different field.)
-
-Field A3, A4, A5 and onwards must have unique names, but the names are meaningless, I suggest using row-numbers for simplicity.
+1. Field A1 must be empty or contain "---"
+2. Field B1 must contain "Entities"
+3. Field A2 must contain either True or False. This determines whether the entity has an impact on the intent of a sentence, in other words, it determines if the entity is meaningful. Colors and many adjectives may be described as meaningless as far as the intent is concerned. True = meaningful, False = meaningless
+4. Field B2, B3, B4 and onwards must be structured as seen in the image. Words that fall within the same entity/category but have a different meaning should be in different fields, while synonyms should be in the same field. (For example, Red and Ruby are in the same field, since as far as we're conserned here, they're synonyms, blue meanwhile is in a different field.)
+5. Field A3, A4, A5 and onwards must have unique names, but the names are meaningless, I suggest using row-numbers for simplicity.
 
 
 The first word in B2 will be referred to as the "base" of that Entity henceforth.
@@ -102,11 +98,9 @@ The first of those, GoTo, corresponds to the first collumn in TrainingDataIntent
 
 Intents.csv has similar rules to Entities;
 
-Field A1 must be empty or contain "---"
-
-Field B1 must contain "Intents" (!!!)
-
-Field A3, A4, A5 and onwards must have unique names, but the names are meaningless, I suggest using row-numbers for simplicity.
+1. Field A1 must be empty or contain "---"
+2. Field B1 must contain "Intents" (!!!)
+3. Field A3, A4, A5 and onwards must have unique names, but the names are meaningless, I suggest using row-numbers for simplicity.
 
 
 That may sound like a lot, so you can also watch this video for a quick summary of the plugin's features!
