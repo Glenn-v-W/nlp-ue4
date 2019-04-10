@@ -78,15 +78,17 @@ This should contain sentences similar to what players may be entering in the gam
 4. Make sure you replace all words that belong to an Entity to the base of that entity (see Entities)
 5. If a word belongs to an entity that was selected to be meaningless to the intent, remove it.
 
-So, for example: 
-  Imagine we have:
-  an Entity of Objects with Base barrel that includes chest
-  an Entity of Colors with base red that includes green, and is set to be meaningless
-  an Intent of Equipables with base key (that includes key, obviously)
-  
+So, for example, imagine we have:
+
+    an Entity of Objects with Base barrel that includes chest
+    an Entity of Colors with base red that includes green, and is set to be meaningless
+    an Intent of Equipables with base key (that includes key, obviously)
+    
+We would like to enter the following sentence into our training set:
+
     Open the green chest using the green key
-  
-  would become
+   
+with the above structuring, that would become
     
     open barrel using key
 
