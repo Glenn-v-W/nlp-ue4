@@ -38,9 +38,9 @@ The .csv file must have the following structure:
 
 [![colors.csv](https://puu.sh/DcFZK/06892ba83b.png)]
 
-Field A1 must be empty or "---"
+Field A1 must be empty or contain "---"
 
-Field B1 must be "Entities"
+Field B1 must contain "Entities"
 
 Field A2 must contain either True or False. This determines whether the entity has an impact on the intent of a sentence, in other words, it determines if the entity is meaningful. Colors and many adjectives may be described as meaningless as far as the intent is concerned. True = meaningful, False = meaningless
 
@@ -95,9 +95,9 @@ the first of those, GoTo, corresponds to the first collumn in TrainingDataIntent
 
 Intents.csv has similar rules to Entities;
 
-Field A1 must be empty or "---"
+Field A1 must be empty or contain "---"
 
-Field B1 must be "Intents" (!!!)
+Field B1 must contain "Intents" (!!!)
 
 Field A3, A4, A5 and onwards must have unique names, but the names are meaningless, I suggest using row-numbers for simplicity.
 
