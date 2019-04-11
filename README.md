@@ -126,6 +126,8 @@ Anywhere in your code, where you wish to process a sentence, call "Process Sente
 
 On Beginplay bind an event to SentenceProcessed from the NaturalLanguageComponent, this event will be called when the net completes processing after you call "Process Sentence", and will receive the Intent (String) and the Detected Entities (Array of Entity Type (String) and Specific Entity (String) in the order that they appeared in the original sentence). You can parse this result as you wish.
 
+### Video Overview
+
 That may sound like a lot, so you can also watch this video for a quick summary of the plugin's features!
 
 [INSERT VIDEO HERE]
