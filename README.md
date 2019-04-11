@@ -29,7 +29,9 @@ This Plugin's workings were heavily inspired by [Microsoft LUIS](https://eu.luis
 So, how to get started using this plugin.
 There's two major parts for using this plugin, there's an in-engine part, and an out-of-engine part. Let's start to the latter.
 
-### Entities
+### Out-of-engine
+
+#### Entities
 
 Make your way to \Content\Entities
 In this folder, you can have as many entities as you wish. Each type of entity must be a .csv file, and the name of the file will be the type of the entity.
@@ -47,7 +49,7 @@ The .csv file must have the following structure:
 
 The first word in B2 will be referred to as the "base" of that Entity henceforth.
 
-### TrainingData and Intents
+#### TrainingData and Intents
 
 Make your way to \Content\Scripts
 
@@ -103,6 +105,9 @@ Intents.csv has similar rules to Entities;
 1. Field A1 must be empty or contain "---"
 2. Field B1 must contain "Intents" (!!!)
 3. Field A3, A4, A5 and onwards must have unique names, but the names are meaningless, I suggest using row-numbers for simplicity.
+
+### In-engine
+
 
 
 That may sound like a lot, so you can also watch this video for a quick summary of the plugin's features!
