@@ -108,7 +108,18 @@ Intents.csv has similar rules to Entities;
 
 ### In-engine
 
+To use natural language processing in a blueprint, you must add a TensorflowComponent and a NaturalLanguageComponent.
+[x](https://puu.sh/Dd4dP/302260f52f.png)
+In the TensorflowComponent set the TensorFlowModule to "GlennvWsNaturalLanguageProcessing"
+[x](https://puu.sh/Dd4dS/55f7557bc9.png)
+In the NaturalLanguageComponent set the Intent Data Table to a data table containing your intents. (There should be one by default, which you can modify to your needs)
 
+Next, all you need to do to use language processing is the following:
+[x](https://puu.sh/Dd4dW/10b494c504.png)
+
+Anywhere in your code, where you wish to process a sentence, call "Process Sentence" from the NaturalLanguageComponent and pass it your sentence (string).
+
+On Beginplay bind an event to SentenceProcessed from the NaturalLanguageComponent, this event will be called when the net completes processing after you call "Process Sentence"m and will receive the Intent (String) and the Detected Entities (Array of Entity Type (String) and Specific Entity (String) in the order that they appeared in the original sentence). You can parse this result as you wish.
 
 That may sound like a lot, so you can also watch this video for a quick summary of the plugin's features!
 
