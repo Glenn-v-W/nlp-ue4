@@ -124,7 +124,7 @@ Next, all you need to do to use language processing is the following:
 
 Anywhere in your code, where you wish to process a sentence, call "Process Sentence" from the NaturalLanguageComponent and pass it your sentence (string).
 
-On Beginplay bind an event to SentenceProcessed from the NaturalLanguageComponent, this event will be called when the net completes processing after you call "Process Sentence"m and will receive the Intent (String) and the Detected Entities (Array of Entity Type (String) and Specific Entity (String) in the order that they appeared in the original sentence). You can parse this result as you wish.
+On Beginplay bind an event to SentenceProcessed from the NaturalLanguageComponent, this event will be called when the net completes processing after you call "Process Sentence", and will receive the Intent (String) and the Detected Entities (Array of Entity Type (String) and Specific Entity (String) in the order that they appeared in the original sentence). You can parse this result as you wish.
 
 That may sound like a lot, so you can also watch this video for a quick summary of the plugin's features!
 
