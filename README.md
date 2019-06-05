@@ -94,7 +94,7 @@ with the above structuring, that would become
     
     open barrel using key
 
-This sentence can then be added to our .csv file, where each word is a seperate field, and all the fields after the sentence is complete are filled with "none" until J. (max of 10 words)
+This sentence can then be added to our .csv file, where each word is a seperate field (max of 10 words)
 
 Of course this sentence corresponds to an intent, we must select the corresponding intent of this sentence. We do this in TrainingDataIntents.csv, where we set the corresponding field to 1, and all incorrect fields to 0. 
 
