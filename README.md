@@ -65,7 +65,7 @@ This folder must contain 3 .csv files for the plugin to function;
 
 The following screenshot has those files open in that order, from left to right, TrainingDataSentences, TrainingDataIntents and Intents
 
-![intents](https://puu.sh/DcG9Y/593462f598.png)
+![intents](https://i.imgur.com/2gweb0b.png)
 
 So, what's going on here?
 TrainingDataSentences.csv (left-hand file) includes the sentences our neural net will be training on for intent recognition.
