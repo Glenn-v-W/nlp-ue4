@@ -132,13 +132,17 @@ On Beginplay bind an event to SentenceProcessed from the NaturalLanguageComponen
 
 That may sound like a lot, so you can also watch this video for a quick summary of the plugin's features!
 
-[INSERT VIDEO HERE]
+[sorry no video yet!]
 
 ## Troubleshooting
 
 ### command window pops up on first begin play
 
-On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity. 
+On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity.
+
+### issues with h5py
+
+Make sure you have the newest version of the Tensorflow / Python Unreal Plugins
 
 ### the NaturalLanguageComponent does not complete training
 Wait for a few minutes before pressing play again. Python modules are being installed in the background, just be patient!
