@@ -112,13 +112,13 @@ Intents.csv has similar rules to Entities;
 
 To use natural language processing in a blueprint, you must add a TensorflowComponent and a NaturalLanguageComponent.
 
-![x](https://puu.sh/Dd4dP/302260f52f.png)
-
 In the TensorflowComponent set the TensorFlowModule to "GlennvWsNaturalLanguageProcessing"
 
-![x](https://puu.sh/Dd4dS/55f7557bc9.png)
+![x](https://puu.sh/Dd4dP/302260f52f.png)
 
 In the NaturalLanguageComponent set the Intent Data Table to a data table containing your intents. (There should be one by default, which you can modify to your needs)
+
+![x](https://puu.sh/Dd4dS/55f7557bc9.png)
 
 Next, all you need to do to use language processing is the following:
 
