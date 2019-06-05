@@ -26,6 +26,8 @@ https://github.com/Glenn-v-W/nlp-puzzlegame
 
 This Plugin's workings were heavily inspired by [Microsoft LUIS](https://eu.luis.ai). Similarly to it, we work with entities and intents. The main difference between LUIS and this plugin is that this plugin works offline, without the need to pay for Microsoft Azure, but it is missing a number of features that Microsoft LUIS does have. Namely patterns, regexes, etc. In an ideal world these will be added later, but we'll see.
 
+One flaw the plugin has, is the fact that it splits sentences on "and", but it's not very smart in doing so. Imagine "Press the button on the third row and the second column", it would split that into "Press the button on the third row" and "the second column", which is of course not ideal. I have not yet come up with a better alternative, so this works for now. Replacing this is very straightforward, the branch is already there, just need to connect a function that outputs a boolean to it.
+
 So, how to get started using this plugin.
 There's two major parts for using this plugin, there's an in-engine part, and an out-of-engine part. Let's start to the latter.
 
