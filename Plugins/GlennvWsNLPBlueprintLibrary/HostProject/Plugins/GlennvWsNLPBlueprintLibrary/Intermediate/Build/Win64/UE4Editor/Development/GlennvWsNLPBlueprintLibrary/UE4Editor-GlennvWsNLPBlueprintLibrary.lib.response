@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GlennvWsNLPBlueprintLibrary.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"G:\Dev\nlp-ue4\Plugins\GlennvWsNLPBlueprintLibrary\HostProject\Plugins\GlennvWsNLPBlueprintLibrary\Intermediate\Build\Win64\UE4Editor\Development\GlennvWsNLPBlueprintLibrary\Module.GlennvWsNLPBlueprintLibrary.cpp.obj"
+"G:\Dev\nlp-ue4\Plugins\GlennvWsNLPBlueprintLibrary\HostProject\Plugins\GlennvWsNLPBlueprintLibrary\Intermediate\Build\Win64\UE4Editor\Development\GlennvWsNLPBlueprintLibrary\Module.GlennvWsNLPBlueprintLibrary.gen.cpp.obj"
+"G:\Dev\nlp-ue4\Plugins\GlennvWsNLPBlueprintLibrary\HostProject\Plugins\GlennvWsNLPBlueprintLibrary\Intermediate\Build\Win64\UE4Editor\Development\GlennvWsNLPBlueprintLibrary\PCLaunch.rc.res"
+/OUT:"G:\Dev\nlp-ue4\Plugins\GlennvWsNLPBlueprintLibrary\HostProject\Plugins\GlennvWsNLPBlueprintLibrary\Intermediate\Build\Win64\UE4Editor\Development\GlennvWsNLPBlueprintLibrary\UE4Editor-GlennvWsNLPBlueprintLibrary.lib"

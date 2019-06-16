@@ -20,13 +20,11 @@ https://github.com/Glenn-v-W/nlp-ue4-examples
 
 For a more in-depth use of this plugin, you can find a text-based adventure game I've been working on here:
 
-[it's grown too big for Github, I may look for a good way to re-add it later]
+https://github.com/Glenn-v-W/nlp-puzzlegame
 
 ## Feature Overview
 
 This Plugin's workings were heavily inspired by [Microsoft LUIS](https://eu.luis.ai). Similarly to it, we work with entities and intents. The main difference between LUIS and this plugin is that this plugin works offline, without the need to pay for Microsoft Azure, but it is missing a number of features that Microsoft LUIS does have. Namely patterns, regexes, etc. In an ideal world these will be added later, but we'll see.
-
-One flaw the plugin has, is the fact that it splits sentences on "and", but it's not very smart in doing so. Imagine "Press the button on the third row and the second column", it would split that into "Press the button on the third row" and "the second column", which is of course not ideal. I have not yet come up with a better alternative, so this works for now. Replacing this is very straightforward, the branch is already there, just need to connect a function that outputs a boolean to it.
 
 So, how to get started using this plugin.
 There's two major parts for using this plugin, there's an in-engine part, and an out-of-engine part. Let's start to the latter.
@@ -65,7 +63,7 @@ This folder must contain 3 .csv files for the plugin to function;
 
 The following screenshot has those files open in that order, from left to right, TrainingDataSentences, TrainingDataIntents and Intents
 
-![intents](https://i.imgur.com/2gweb0b.png)
+![intents](https://puu.sh/DcG9Y/593462f598.png)
 
 So, what's going on here?
 TrainingDataSentences.csv (left-hand file) includes the sentences our neural net will be training on for intent recognition.
@@ -94,7 +92,7 @@ with the above structuring, that would become
     
     open barrel using key
 
-This sentence can then be added to our .csv file, where each word is a seperate field (max of 10 words)
+This sentence can then be added to our .csv file, where each word is a seperate field, and all the fields after the sentence is complete are filled with "none" until J. (max of 10 words)
 
 Of course this sentence corresponds to an intent, we must select the corresponding intent of this sentence. We do this in TrainingDataIntents.csv, where we set the corresponding field to 1, and all incorrect fields to 0. 
 
@@ -112,13 +110,13 @@ Intents.csv has similar rules to Entities;
 
 To use natural language processing in a blueprint, you must add a TensorflowComponent and a NaturalLanguageComponent.
 
-In the TensorflowComponent set the TensorFlowModule to "GlennvWsNaturalLanguageProcessing"
-
 ![x](https://puu.sh/Dd4dP/302260f52f.png)
 
-In the NaturalLanguageComponent set the Intent Data Table to a data table containing your intents. (There should be one by default, which you can modify to your needs)
+In the TensorflowComponent set the TensorFlowModule to "GlennvWsNaturalLanguageProcessing"
 
 ![x](https://puu.sh/Dd4dS/55f7557bc9.png)
+
+In the NaturalLanguageComponent set the Intent Data Table to a data table containing your intents. (There should be one by default, which you can modify to your needs)
 
 Next, all you need to do to use language processing is the following:
 
@@ -132,17 +130,13 @@ On Beginplay bind an event to SentenceProcessed from the NaturalLanguageComponen
 
 That may sound like a lot, so you can also watch this video for a quick summary of the plugin's features!
 
-[sorry no video yet!]
+[INSERT VIDEO HERE]
 
 ## Troubleshooting
 
 ### command window pops up on first begin play
 
-On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity.
-
-### issues with h5py
-
-Make sure you have the newest version of the Tensorflow / Python Unreal Plugins
+On first play, the plugin adds modules to the python virtual environment. This may take a few minutes depending on internet connectivity. 
 
 ### the NaturalLanguageComponent does not complete training
 Wait for a few minutes before pressing play again. Python modules are being installed in the background, just be patient!
